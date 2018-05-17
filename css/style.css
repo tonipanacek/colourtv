@@ -1,0 +1,153 @@
+body {
+  font-family: 'Futura', sans-serif;
+  margin: 0;
+  padding: 0;
+  background: #f0e9e6;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+/*all style for home page*/
+
+#home {
+  height: calc(100vh - 50px);
+}
+
+article  a {
+  color: white;
+  text-decoration: none;
+  padding: 10px;
+  border: 1px solid white;
+}
+
+article a:hover {
+  opacity: .6;
+}
+
+#home-button {
+  color: black;
+  font-size: 1.5em;
+  margin: 10px;
+  padding: 5px;
+}
+
+#home-button > img {
+  height: 150px;
+}
+
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+#home .navbar a {
+  color: white;
+}
+
+.navbar > a {
+  text-decoration: none;
+  color: black;
+  padding: 10px;
+}
+
+/* The only rule that matters */
+#video-background {
+/*  making the video fullscreen  */
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
+  width: auto;
+  height: auto;
+  z-index: -100;
+  opacity: .9;
+}
+
+#home h1 {
+  position: absolute;
+  top: 40%;
+  width: 100%;
+  font-size: 36px;
+  letter-spacing: 3px;
+  color: #fff;
+  font-family: Futura, sans-serif;
+  text-align: center;
+}
+
+h1 span {
+  font-family: Futura;
+  letter-spacing: 0;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+/*all style for about page*/
+
+#about .content h1 {
+  font-size: 60px;
+  letter-spacing: 5px;
+  padding: 10px;
+  /*text-shadow: rgba(10, 189, 240, 0.298039) 3px 3px 0px, rgba(254, 1, 1, 0.298039) -3px -3px 0px*/
+}
+
+#about .content {
+  text-align: center;
+  color: black;
+  font-weight: normal;
+  padding: 0 100px;
+}
+
+/*all style for short format page*/
+
+#short .wrapper {
+ width: 100%;
+ display: inline-flex;
+ margin: auto;
+ margin-top: 50px;
+ flex-wrap: wrap;
+ justify-content: center;
+}
+
+#short .card {
+  border: .5px solid white;
+  height: 250px;
+  width: 350px;
+  margin: 20px;
+  background-size: cover !important;
+  -webkit-filter: brightness(100%);
+  -moz-filter: brightness(100%);
+  -o-filter: brightness(100%);
+  -ms-filter: brightness(100%);
+  filter: brightness(100%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.text {
+  text-align: center;
+  visibility: hidden;
+}
+
+#short .card:hover{
+  -webkit-filter: brightness(60%);
+  -moz-filter: brightness(60%);
+  -o-filter: brightness(60%);
+  -ms-filter: brightness(60%);
+  filter: brightness(60%);
+}
+
+.card:hover .text {
+  visibility: visible;
+  opacity: 1;
+  color: white;
+}
+
+.video-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
