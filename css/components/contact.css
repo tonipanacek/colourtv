@@ -1,0 +1,11 @@
+.container {
+  text-align: justify;
+  width: 500px;
+  margin: 0 auto;
+  padding-top: 50px;
+}
+
+.container h1 {
+  font-size: 50px;
+  margin-bottom: 50px;
+}

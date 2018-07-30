@@ -1,0 +1,55 @@
+/*all style for short format page*/
+
+#short .wrapper {
+ width: 100%;
+ display: inline-flex;
+ margin: 0 auto;
+ margin-top: 50px;
+ flex-wrap: wrap;
+ justify-content: center;
+}
+
+#short .card {
+  border: .5px solid white;
+  height: 250px;
+  width: 350px;
+  margin: 10px;
+  background-size: cover !important;
+  -webkit-filter: brightness(100%);
+  -moz-filter: brightness(100%);
+  -o-filter: brightness(100%);
+  -ms-filter: brightness(100%);
+  filter: brightness(100%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#short a {
+  text-decoration: none;
+}
+
+.text {
+  text-align: center;
+  visibility: hidden;
+}
+
+#short .card:hover {
+  opacity: .7;
+}
+
+.card:hover .text {
+  visibility: visible;
+  opacity: 1;
+  color: white;
+}
+
+/*video div*/
+
+.video-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 30px;
+}
+

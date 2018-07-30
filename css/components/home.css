@@ -1,0 +1,35 @@
+/*all style for home page*/
+
+#home {
+  height: calc(100vh - 50px);
+}
+
+article a {
+  color: white;
+  text-decoration: none;
+  padding: 10px;
+  border: 1px solid white;
+}
+
+article a:hover {
+  opacity: .6;
+}
+
+#home h1 {
+  position: absolute;
+  top: 40%;
+  width: 100%;
+  font-size: 36px;
+  letter-spacing: 3px;
+  color: #fff;
+  font-family: 'Questrial', sans-serif;
+  text-align: center;
+}
+
+h1 span {
+  font-family: 'Questrial';
+  letter-spacing: 0;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 24px;
+}

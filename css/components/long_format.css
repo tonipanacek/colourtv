@@ -1,0 +1,22 @@
+#long .container {
+ width: 100%;
+ display: inline-flex;
+ margin: auto;
+ flex-wrap: wrap;
+ justify-content: center;
+}
+
+#long .card {
+  height: 500px;
+  width: 900px;
+  margin: 20px;
+  background-size: cover !important;
+  -webkit-filter: brightness(100%);
+  -moz-filter: brightness(100%);
+  -o-filter: brightness(100%);
+  -ms-filter: brightness(100%);
+  filter: brightness(100%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

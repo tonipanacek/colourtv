@@ -1,120 +1,126 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8">
-    <title>Colour TV</title>
-    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
-   <!--  <link href="https://fonts.googleapis.com/css?family=Josefin+Sans:300,400" rel="stylesheet"> -->
-    <link href='https://fonts.googleapis.com/css?family=Rubik' rel='stylesheet' type='text/css'>
-    <link rel="stylesheet" href="css/style.css">
-  </head>
-  <body id="short">
-    <div>
-      <div class="navbar">
-      <a href="index.html" id="home-button"><img src="images/colourtv-logo.png" alt=""></a>
-      <a href="about.html">ABOUT</a>
-      <a href="short_format.html">SHORT FORMAT</a>
-      <a href="long_format.html">LONG FORMAT</a>
-      <a href="contact.html">CONTACT</a>
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Colour TV</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.10/css/all.css">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body id="short">
+  <div class="navbar">
+    <a href="index.html" id="home-button" class ="navbar-logo">
+      <img src="images/colourtvgif.gif" alt="COLOUR TV">
+    </a>
+    <div class="navbar-right">
+      <a href="about.html">about</a>
+      <a href="short_format.html">short form</a>
+      <a href="long_format.html">film & tv</a>
+      <a href="contact.html">contact</a>
     </div>
-    <div class="video-wrapper">
-      <div id="myDIV" style="display: none">
-        <iframe src="https://player.vimeo.com/video/259731442" autoplay width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
-      </div>
+  </div>
+  <div class="video-wrapper">
+    <div id="videoDiv" style="display: none">
+      <iframe id="videoIframe" src="https://player.vimeo.com/video/259731442" autoplay width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
     </div>
-    <div class="wrapper">
-        <a href="#myDiv" onclick="myFunction()">
-          <div class="card" style="background: url('images/curveball.png') no-repeat center">
-          <div class="text">
-            <h3>Curveball</h3>
-          </div>
-        </div>
-      </a>
-        <div class="card" style="background: url('images/inthemiddle.png') no-repeat center">
-          <div class="text">
-            <h3>Dodie - In the Middle</h3>
-          </div>
-        </div>
-        <div class="card" style="background: url('https://drive.google.com/uc?id=1inkEtoT3EZd427g0fpc91PEIqhssO615') no-repeat center">
-          <div class="text">
-            <h3>Playground</h3>
-          </div>
-        </div>
-        <div class="card" style="background: url('images/intertwined.png') no-repeat center">
-          <div class="text">
-            <h3>Dodie - Intertwined</h3>
-          </div>
-        </div>
-        <div class="card" style="background: url('images/us.png') no-repeat center">
-          <div class="text">
-            <h3>Us</h3>
-          </div>
-        </div>
-        <div class="card" style="background: url('images/stompinggrounds.png') no-repeat center">
-          <div class="text">
-            <h3>Stomping Grounds</h3>
-          </div>
-        </div>
-        <div class="card" style="background: url('https://drive.google.com/uc?id=1Hc04UUtWkuLvbbX8ZI1RxQUmkMv5WmUI') no-repeat center">
-          <div class="text">
-            <h3>I DARE YOU</h3>
-          </div>
-        </div>
-        <div class="card" style="background: url('https://drive.google.com/uc?id=1utp0gugNtUYf5HbAFbGQIaDYWO9F5BEa') no-repeat center">
-          <div class="text">
-            <h3>Handful</h3>
-          </div>
-        </div>
-        <div class="card" style="background: url('images/throwthefear.png') no-repeat center">
-          <div class="text">
-            <h3>Throw the Fear</h3>
-          </div>
-        </div>
-        <div class="card" style="background: url('https://drive.google.com/uc?id=1LjaF05xs2ZCaic1p_D_YxAjbG8VYZdRp') no-repeat center">
-          <div class="text">
-            <h3>Living Room Shoot Out</h3>
-          </div>
-        </div>
-        <div class="card" style="background: url('images/oneanother.png') no-repeat center">
-          <div class="text">
-            <h3>One Another</h3>
-          </div>
-        </div>
-        <div class="card" style="background: url('https://drive.google.com/uc?id=18MJeRFE8cVSBLdAVO4bqo1cwJ54aUh1A') no-repeat center">
-          <div class="text">
-            <h3>Nazi Bar</h3>
-          </div>
-        </div>
-        <div class="card" style="background: url('https://drive.google.com/uc?id=13n-eeLh10F3BlV1m6VP5im0bnH7qHBVT') no-repeat center">
-          <div class="text">
-            <h3>Self Conscious Computer</h3>
-          </div>
-        </div>
-        <div class="card" style="background: url('images/hotmess.png') no-repeat center">
-          <div class="text">
-            <h3>Hot Mess</h3>
-          </div>
-        </div>
-        <div class="card" style="background: url('images/babywithagun.png') no-repeat center">
-          <div class="text">
-            <h3>Baby with a Gun</h3>
-          </div>
-        </div>
-        <div class="card" style="background: url('images/hairandbrimstone.png') no-repeat center">
-          <div class="text">
-            <h3>Hair and Brimstone</h3>
-          </div>
+  </div>
+  <div class="wrapper">
+    <a href="#videoDiv" data-video-id="259731442"  onclick="hiddenVideo(event)">
+      <div class="card" style="background: url('images/curveball.png') no-repeat center">
+        <div class="text">
+          <h3>Curveball</h3>
         </div>
       </div>
+    </a>
+    <a href="#myDiv" onclick="hiddenVideo(event)">
+      <div class="card" style="background: url('images/inthemiddle.png') no-repeat center">
+        <div class="text">
+          <h3>Dodie - In the Middle</h3>
+        </div>
+      </div>
+    </a>
+    <div class="card" style="background: url('images/playground.png') no-repeat center">
+      <div class="text">
+        <h3>Playground</h3>
+      </div>
     </div>
+    <div class="card" style="background: url('images/intertwined.png') no-repeat center">
+      <div class="text">
+        <h3>Dodie - Intertwined</h3>
+      </div>
+    </div>
+    <div class="card" style="background: url('images/us.png') no-repeat center">
+      <div class="text">
+        <h3>Us</h3>
+      </div>
+    </div>
+    <div class="card" style="background: url('images/stompinggrounds.png') no-repeat center">
+      <div class="text">
+        <h3>Stomping Grounds</h3>
+      </div>
+    </div>
+    <div class="card" style="background: url('images/jackanddean2.png') no-repeat center">
+      <div class="text">
+        <h3>I DARE YOU</h3>
+      </div>
+    </div>
+    <div class="card" style="background: url('images/handful.png') no-repeat center">
+      <div class="text">
+        <h3>Handful</h3>
+      </div>
+    </div>
+    <div class="card" style="background: url('images/throwthefear.png') no-repeat center">
+      <div class="text">
+        <h3>Throw the Fear</h3>
+      </div>
+    </div>
+    <div class="card" style="background: url('images/livingroomshootout.jpg') no-repeat center">
+      <div class="text">
+        <h3>Living Room Shoot Out</h3>
+      </div>
+    </div>
+    <div class="card" style="background: url('images/oneanother.png') no-repeat center">
+      <div class="text">
+        <h3>One Another</h3>
+      </div>
+    </div>
+    <div class="card" style="background: url('images/nazibar.png') no-repeat center">
+      <div class="text">
+        <h3>Nazi Bar</h3>
+      </div>
+    </div>
+    <div class="card" style="background: url('images/selfconsciouscomputer.png') no-repeat center">
+      <div class="text">
+        <h3>Self Conscious Computer</h3>
+      </div>
+    </div>
+    <div class="card" style="background: url('images/hotmess2.png') no-repeat center">
+      <div class="text">
+        <h3>Hot Mess</h3>
+      </div>
+    </div>
+    <div class="card" style="background: url('images/babywithagun.png') no-repeat center">
+      <div class="text">
+        <h3>Baby with a Gun</h3>
+      </div>
+    </div>
+    <div class="card" style="background: url('images/hairandbrimstone.png') no-repeat center">
+      <div class="text">
+        <h3>Hair and Brimstone</h3>
+      </div>
+    </div>
+  </div>
 
-    <script>function myFunction() {
-    var x = document.getElementById("myDIV");
-    if (x.style.display === "none") {
-        x.style.display = "block";
-    } else {
-        x.style.display = "none";
-    }
+<script>function hiddenVideo(event) {
+  console.log(event.currentTarget.dataset.videoId);
+  var x = document.getElementById("videoDiv");
+  if (x.style.display === "none") {
+    x.style.display = "block";
+  } else {
+    x.style.display = "none";
+  }
 }</script>
-  </body>
+</body>
 </html>
